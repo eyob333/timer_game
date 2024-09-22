@@ -22,7 +22,7 @@ const ResultModal  = forwardRef(function ResultModal({result, targetTime, timeLe
         {lost && <p> your socre {score} </p>}
         <p> The target time was <strong> {targetTime} seconds. </strong></p>
         <p>You have soped the timer with <strong> {formattedTime} seconds {result < 0 ? 'Due.': 'Left.' } </strong></p>
-        <form action="" onSubmit={onReset}>
+        <form action="" id="someshit" name="some othershit" onSubmit={onReset} >
             <button>close</button>
         </form>
 
